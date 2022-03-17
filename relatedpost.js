@@ -16,8 +16,7 @@ $(document).ready(function() {
                     var p = t.feed.entry[x].title.$t;
                     var c = t.feed.entry[x].content.$t;
                     var y = $('<div>').html(c);
-                    h += '<li><div class="related-thumb"><a class="related-img lazyload" href="' + u + '" style="background:url(' + k + ') no-repeat center center;background-size: cover"/></div><h3 class="related-title"><a href="' + u + '">' + p + '</a></h3></li>'
-                }
+                     }
                 h += '</div>', g.html(h);
             }
         })
